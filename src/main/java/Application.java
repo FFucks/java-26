@@ -10,5 +10,8 @@ public class Application {
 
         System.out.println("\n=== Structured Concurrency ===");
         StructuredConcurrency.run();
+
+        System.out.println("\n=== Unnamed Patterns ===");
+        UnnamedPatterns.run("test");
     }
 }
