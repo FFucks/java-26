@@ -7,5 +7,8 @@ public class Application {
 
         System.out.println("\n=== Scoped Values ===");
         ScopedValues.run();
+
+        System.out.println("\n=== Structured Concurrency ===");
+        StructuredConcurrency.run();
     }
 }
