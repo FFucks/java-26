@@ -4,5 +4,8 @@ public class Application {
 
         System.out.println("=== String Templates ===");
         StringTemplates.run();
+
+        System.out.println("\n=== Scoped Values ===");
+        ScopedValues.run();
     }
 }
