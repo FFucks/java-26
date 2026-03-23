@@ -13,5 +13,8 @@ public class Application {
 
         System.out.println("\n=== Unnamed Patterns ===");
         UnnamedPatterns.run("test");
+
+        System.out.println("\n=== Primitive Patterns ===");
+        PrimitiveTypesPatterns.run(10);
     }
 }
