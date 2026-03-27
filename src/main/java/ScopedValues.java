@@ -10,6 +10,7 @@ public class ScopedValues {
         });
     }
 
+
     private static void process() {
         System.out.println("Actual User: " + USER.get());
     }
